@@ -1,69 +1,46 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+:root {
+	--spacing: .5rem;
 }
 
-:root {
-  font-size: min(calc(1em + 1vw), 4em);
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	height: 100%;
+	font-size: 16px;
 }
 
 body {
-  min-height: 100vh;
-
-  font-family: sans-serif;
-  text-rendering: optimizeLegibility;
-  font-feature-settings: 'kern' 1, 'liga' on, 'dlig' on;
-  line-height: 1.5;
-
-  color: DarkSlateGray;
-  background-color: silver;
+	font-family: Arial, san-serif;
 }
 
-body > * {
-  padding: 0.2rem;
-}
-
-header {
-  background-color: white;
-  margin-bottom: 1rem;
-  color: silver;
-}
-
-header > h1 {
-  font-size: 1rem;
-  text-align: right;
-}
-
-nav li {
-  display: inline;
-}
-
-nav li a {
-  text-decoration: none;
-}
-
-nav a.active {
-  font-weight: bold;
-}
-
+body,
+article,
 section {
-  width: min(100%, 38rem);
-  background: white;
-  border-radius: 0.2rem;
-  padding: 0.2rem;
+	display: flex;
+	flex-flow: column;
+	gap: .5rem;
+	height: 100%;
 }
-section + section {
-  margin-top: 1rem;
+body > header,
+body > footer,
+article > header,
+article > footer,
+section > header,
+section > footer {
+	flex: 0 1 auto;
 }
 
-h3 {
-  border-bottom: DarkSlateGray 1px solid;
-  margin-bottom: 1rem;
+article > div,
+section > div {
+	padding: 0 var(--spacing)
 }
 
-pre {
-  padding-left: 0.2rem;
-  background: DarkSlateGray;
-  color: white;
+body > main,
+article > div,
+section > div {
+	flex: 1 1 auto;
 }
