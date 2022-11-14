@@ -45,6 +45,10 @@ section > div {
 	flex: 1 1 auto;
 }
 
+body > main {
+	padding: 0 var(--spacing);
+}
+
 .flex {
 	display: flex;
 }
