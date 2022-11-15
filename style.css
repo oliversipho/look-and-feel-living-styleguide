@@ -1,5 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 :root {
 	--spacing: .5rem;
+
+	--heading-font: Rajdhani, san-serif;
+	--regualar-font: Roboto, san-serif;
+
+	--primary-color: #524dd0;
+	--accent-color: #00ffec;
 }
 
 * {
@@ -14,7 +23,7 @@ html {
 }
 
 body {
-	font-family: Arial, san-serif;
+	font-family: var(--regualar-font);
 }
 
 body,
@@ -45,10 +54,16 @@ section > div {
 	flex: 1 1 auto;
 }
 
-.flex {
-	display: flex;
+body > main {
+	padding: 0 var(--spacing);
 }
 
-.flex-column {
-	flex-direction: column;
+body > header {
+	background: var(--primary-color);
+	color: white;
+	padding: var(--spacing);
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: var(--heading-font);
 }
