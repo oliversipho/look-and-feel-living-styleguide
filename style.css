@@ -71,3 +71,26 @@ article > div {
 .flex-column {
 	flex-direction: column;
 }
+
+main {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.container {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.work-container {
+    float: left;
+    width: 60%;
+}
+
+.text-container {
+    float: left;
+    width: 40%;
+    padding: 0 4em 4em 4em;
+    height: 100vh;
+}
