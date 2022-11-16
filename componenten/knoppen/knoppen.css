@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Rajdhani&display=swap');
 
-main {
-    width: 80%;
-    margin-left: 10%;
-}
-
 button {
     padding: 1em 3em 1em 3em;
     border-radius: 5px;
@@ -134,7 +129,7 @@ h3 {
   .margin-maker-top {
     margin-top: 1em;
   }
-  
+
   .flex-items:nth-child(1) {
     display: block;
     flex-grow: 0;
@@ -145,7 +140,7 @@ h3 {
     background-color: #5052c9;
     color: white;
   }
-  
+
   .flex-items:nth-child(2) {
     display: block;
     flex-grow: 0;
@@ -155,7 +150,7 @@ h3 {
     order: 0;
     background-color: #00ffec;
   }
-  
+
   .flex-items:nth-child(3) {
     display: block;
     flex-grow: 0;
