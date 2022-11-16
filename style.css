@@ -29,14 +29,13 @@ body {
 	background: var(--gray-bg);
 	display: flex;
 	flex-flow: column;
-	gap: var(--spacing);
+	/* gap: var(--spacing); */
 	height: 100%;
 }
 
 body > header,
 body > footer {
 	flex: 0 1 auto;
-	padding-inline: 10%;
 }
 
 body > main {
@@ -49,6 +48,12 @@ body > header {
 	padding-block: 1rem;
 }
 
+body > footer {
+	padding-block: .5rem;
+	background: #09102E;
+	color: white;
+}
+
 h1, h2, h3, h4, h5, h6 {
 	font-family: var(--heading-font);
 }
@@ -56,12 +61,7 @@ h1, h2, h3, h4, h5, h6 {
 article {
 	display: flex;
 	flex-direction: column;
-	gap: var(--spacing);
-}
-
-body > main {
-	width: 80%;
-	margin-inline: auto;
+	/* gap: var(--spacing); */
 }
 
 .container {
@@ -110,4 +110,32 @@ body > main {
 #navigation-list > a:hover {
 	color: var(--primary-color);
 	background-color: rgba(0, 0, 0, .1);
+}
+
+
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+	#navigation-list {
+		width: 300px;
+	}
+
+}
+
+@media (min-width: 992px) {
+	body > header,
+	body > main,
+	body > footer {
+		padding-inline: 10%;
+	}
+}
+
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 1400px) {
+
 }
