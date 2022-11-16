@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 :root {
-	--spacing: .5rem;
+	--spacing: 1rem;
 
 	--heading-font: Rajdhani, san-serif;
 	--regualar-font: Roboto, san-serif;
@@ -26,38 +26,21 @@ html {
 
 body {
 	font-family: var(--regualar-font);
-}
-
-body,
-article,
-section {
+	background: var(--gray-bg);
 	display: flex;
 	flex-flow: column;
-	gap: .5rem;
+	gap: var(--spacing);
 	height: 100%;
 }
+
 body > header,
-body > footer,
-article > header,
-article > footer,
-section > header,
-section > footer {
+body > footer {
 	flex: 0 1 auto;
 }
 
-article > div,
-section > div {
-	padding: 0 var(--spacing)
-}
-
-body > main,
-article > div,
-section > div {
-	flex: 1 1 auto;
-}
-
 body > main {
-	padding: 0 var(--spacing);
+	flex: 1 1 auto;
+	padding: 0 var(--spacing)
 }
 
 body > header {
@@ -68,4 +51,23 @@ body > header {
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: var(--heading-font);
+}
+
+article {
+	display: flex;
+	flex-direction: column;
+	gap: var(--spacing);
+}
+
+article > div {
+	background: white;
+	padding: var(--spacing);
+}
+
+.flex {
+	display: flex;
+}
+
+.flex-column {
+	flex-direction: column;
 }
