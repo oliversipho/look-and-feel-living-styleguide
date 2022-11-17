@@ -1,12 +1,38 @@
-> _Fork_ deze deeltaak en ga aan de slag. 
-Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. 
-De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
+# Living styleguide
+_________________________________________________________________________________________________
 
-# Naam deeltaak
+:postal_horn: Inhoud
+
+ * Introductie
+ * Live versie
+ * Talen
+ * Installatie
+_________________________________________________________________________________________________
+
+<img width="888" alt="image" src="">
 
 
-## Licentie
+:postal_horn: Introductie: Een living styleguide is essentieel voor het begrijpen en overbrengen van de look and feel van een website. Het geeft een gedeeld begrip van alle teamleden over hoe iets eruit moet zien en hoe markup (HTML) en vormgeving (CSS) moeten worden toegepast. Een living styleguide helpt bij het ontwerpen en bouwen van een website met consistente look and feel in de huisstijl van een opdrachtgever.
 
-![GNU GPL V3](https://www.gnu.org/graphics/gplv3-127x51.png)
+Aan ons is de opdracht gegeven een living styleguide te maken voor Coding the Curbs. We hebben de onderdelen verdeeld binnen het groepje en iedereen heeft een aantal pagina's gemaakt.
 
-This work is licensed under [GNU GPLv3](./LICENSE).
+Deze web applicatie werkt op desktop en als mobiele versie.
+_________________________________________________________________________________________________
+
+:postal_horn: De live versie is te vinden op: https://
+
+_________________________________________________________________________________________________
+
+:postal_horn: Dit project is gemaakt met de volgende talen:
+
+> :triangular_flag_on_post: HTML<br>
+> :triangular_flag_on_post: CSS<br>
+> :triangular_flag_on_post: JavaScript<br>
+_________________________________________________________________________________________________
+
+:postal_horn: Installatie: Je kan de bestandsmap downloaden of het project clonen; je hoeft verder niks te installeren. Om de website lokaal te bekijken kan je het index.html bestand openen.
+_________________________________________________________________________________________________
+
+```
+Gemaakt door het developer team van Coding the Curbs op de Hoge school van Amsterdam.
+```
