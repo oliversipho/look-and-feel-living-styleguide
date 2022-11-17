@@ -19,7 +19,7 @@ Aan ons is de opdracht gegeven een living styleguide te maken voor Coding the Cu
 Deze web applicatie werkt op desktop en als mobiele versie.
 _________________________________________________________________________________________________
 
-:postal_horn: De live versie is te vinden op: https://
+:postal_horn: De live versie is [hier](https://luukbrauckmann.github.io/look-and-feel-living-styleguide/) vinden.
 
 _________________________________________________________________________________________________
 

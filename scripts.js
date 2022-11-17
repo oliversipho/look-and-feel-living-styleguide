@@ -13,7 +13,7 @@ var components = [
 	{ label: 'Kleuren', link: './componenten/kleuren/kleuren.html', assignedTo: 'Cathelijne' },
 	{ label: 'Knoppen', link: './componenten/knoppen/knoppen.html', assignedTo: 'Thomas' },
 	{ label: 'Lijsten', link: './componenten/lijsten/lijsten.html', assignedTo: 'Romer' },
-	{ label: 'Media', link: './componenten/media/media.html', assignedTo: '-' },
+	{ label: 'Media', link: './componenten/media/media.html', assignedTo: 'Demi' },
 	{ label: 'Navigatie', link: './componenten/navigatie/navigatie.html', assignedTo: 'Mokhtar' },
 	{ label: 'Reclame', link: './componenten/reclame/reclame.html', assignedTo: '-' }
 ]

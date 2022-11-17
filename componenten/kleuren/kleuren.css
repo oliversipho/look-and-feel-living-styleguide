@@ -1,0 +1,60 @@
+:root {
+	--purple: #524dd0;
+	--blue: #00ffec;
+	--dark-blue: #2c8076;
+	--black: #110f2a;
+	--white: #fff;
+	--gray: #f7f7f7;
+}
+
+.main {
+	width: 80%;
+	margin-left: 10%;
+}
+
+header {
+	width: 100%;
+}
+
+.kleur {
+	border: solid 2px var(--black);
+
+	padding: 0.5rem 1rem;
+}
+
+.info {
+	padding: 0.5rem 1rem;
+	background-color: inherit;
+}
+
+.purple {
+	background-color: var(--purple);
+	color: var(--white);
+}
+
+.blue {
+	background-color: var(--blue);
+}
+
+.dark-blue {
+	background-color: var(--dark-blue);
+}
+
+.black {
+	background-color: var(--black);
+	color: var(--white);
+}
+
+.gray {
+	background-color: var(--gray);
+}
+
+.white {
+	background-color: var(--white);
+}
+
+pre {
+	border: solid 2px var(--black);
+	border-radius: 1rem;
+	background-color: var(--white);
+}

@@ -1,29 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="./kleuren.css" />
+		<link rel="stylesheet" href="../../style.css" />
+		<title>Kleuren</title>
+	</head>
 
-	<link rel="stylesheet" href="./kleuren.css">
-	<link rel="stylesheet" href="../../style.css">
-	<title>Kleuren</title>
-</head>
-
-<body>
-	<header>
-		<h1>Kleuren</h1>
-	</header>
-	<main>
-		<article>
-			<header>
-				<h2>...Heading level 2</h2>
-			</header>
-			<div>...Content</div>
-			<footer>...Footer</footer>
-		</article>
-	</main>
-</body>
-
+	<body>
+		<header>
+			<h1>Kleuren</h1>
+		</header>
+		<main>
+			<article>
+				<header class="title">
+					<h2>De verschillende kleuren</h2>
+					<hr />
+				</header>
+				<div class="purple kleur">#524dd0</div>
+				<div class="info">
+					De paarse kleur is de kleur die het meest in de site
+					terugkomt voornamelijk als achtergrondkleur. Op paars wordt
+					met wit geschreven zodat de tekst makelijk te lezen is.
+				</div>
+				<div class="blue kleur">#00ffec</div>
+				<div class="info">
+					De blauwe kleur is een kleur die er is om dingen te laten
+					opvallen, daarom wordt de kleur voornamelijk gebruikt voor
+					dingen zoals knoppen. Er wordt met zwart op blauw
+					geschreven.
+				</div>
+				<div class="black kleur">#110f2a</div>
+				<div class="info">
+					Zwart wordt voor tekst en voor de footer gebruikt. Er wordt
+					met wit op de zwarte stukken geschreven.
+				</div>
+				<div class="gray kleur">#f7f7f7</div>
+				<div class="info">
+					Grijs wordt als achtergrondkleur gebruikt en kan voor iconen
+					gebruikt worden. Er wordt met zwart op grijs geschreven.
+				</div>
+				<div class="white kleur">#fff</div>
+				<div class="info">
+					Wit wordt voor tekst en achtergrond gebruikt. Er wordt met
+					zwart op wit geschreven.
+				</div>
+				<div class="algmeen info">
+					Het is handig om kleuren in vriable in de root te zetten.
+					Dan staan alle kleuren bij elkaar en zijn ze makelijk aan te
+					passen.
+					<br /><br />
+					Hieronder staat een voorbeeld van hoe je de kleuren in de
+					root kan zetten.
+				</div>
+				<pre>
+					<code>
+	:root {
+		--primary-color: #524dd0;
+		--accent-color: #00ffec;
+		--gray-bg: #f7f7f7;
+	}
+					</code>
+				</pre>
+			</article>
+		</main>
+	</body>
 </html>
