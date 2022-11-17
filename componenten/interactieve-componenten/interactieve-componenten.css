@@ -1,3 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Rajdhani&display=swap');
+
+
+.container {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.work-container {
+    float: left;
+    width: 60%;
+}
+
+.text-container {
+    float: left;
+    width: 40%;
+    padding: 0 4em 4em 4em;
+    height: 100vh;
+}
+
+p {
+    margin-bottom: 1em;
+    font-family: sans-serif;
+}
+
+header {
+    margin-bottom: 2em;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: normal;
+    align-items: normal;
+    align-content: normal;
+    margin-bottom: 1em;
+}
+
+.flex-items {
+    width: 100%;
+    height: 3em;
+    margin: .3em;
+    padding: .3em;
+    font-family: sans-serif;
+    border-radius: 5px;
+}
+
+.flex-items:nth-child(1) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    background-color: #5052c9;
+    color: white;
+}
+
+.flex-items:nth-child(2) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    background-color: #000000;
+    color: white;
+}
+
+pre code {
+    background-color: #eee;
+    border: 1px solid #999;
+    display: block;
+    padding: 20px;
+    margin-bottom: 1em;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .work-container {
+        width: 100%;
+    }
+
+    .text-container {
+        width: 100%;
+        padding: 0em;
+    }
+}
+
 
 .mySlides {
     display: none;
@@ -67,7 +158,6 @@ img {
 img {
     opacity: 0.41;
 }
-
 
 
 @keyframes fade {
