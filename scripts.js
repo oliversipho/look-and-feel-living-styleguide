@@ -7,7 +7,7 @@ var components = [
 	{ label: 'Formulieren', link: './componenten/formulieren/formulieren.html', assignedTo: 'Thomas' },
 	{ label: 'Globals', link: './componenten/globals/globals.html', assignedTo: 'Mokhtar' },
 	{ label: 'Headings', link: './componenten/headings/headings.html', assignedTo: 'Milan' },
-	{ label: 'Iconen', link: './componenten/iconen/iconen.html', assignedTo: 'Milan' },
+	{ label: 'Iconen', link: './componenten/iconen/iconen.html', assignedTo: 'Oliver' },
 	{ label: 'Interactieve-componenten', link: './componenten/interactieve-componenten/interactieve-componenten.html', assignedTo: 'Stefan' },
 	{ label: 'Kleuren', link: './componenten/kleuren/kleuren.html', assignedTo: 'Cathelijne' },
 	{ label: 'Knoppen', link: './componenten/knoppen/knoppen.html', assignedTo: 'Thomas' },
