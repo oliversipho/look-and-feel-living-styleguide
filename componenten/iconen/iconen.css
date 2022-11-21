@@ -1,0 +1,19 @@
+body {
+    font-family:'Roboto light';
+}
+header {
+    padding-block: 1rem;
+    background-color: #524dd0;
+    color: #fff;
+    font-family:'Rajdhani';
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 2em;
+}
+
+
+code {
+    font-family: 'Courier New', Courier, monospace;
+}
