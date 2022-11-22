@@ -1,6 +1,4 @@
-body {
-    font-family:'Roboto light';
-}
+
 header {
     padding-block: 1rem;
     background-color: #524dd0;
@@ -13,7 +11,14 @@ h1 {
     font-size: 2em;
 }
 
+h2 {
+    font-family: 'Roboto';
+}
+
 
 code {
     font-family: 'Courier New', Courier, monospace;
+    display: block;
+    background: rgb(221, 221, 221);
+    border: 2px;
 }
