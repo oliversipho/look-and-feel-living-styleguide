@@ -6,10 +6,6 @@
   --header-height: 4rem;
 }
 
-main {
-  margin: 2rem;
-}
-
 ul,
 ol {
   margin: 1rem 2rem;
@@ -72,13 +68,4 @@ ol ol {
 
 .nav--list > li:nth-of-type(even) button {
   background: white;
-}
-
-pre code {
-  background-color: #eee;
-  border: 1px solid #999;
-  display: block;
-  padding: 20px;
-  margin-bottom: 1em;
-  border-radius: 5px;
 }
