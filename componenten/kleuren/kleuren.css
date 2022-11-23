@@ -1,10 +1,13 @@
 :root {
 	--purple: #524dd0;
 	--blue: #00ffec;
-	--dark-blue: #2c8076;
+	--dark-blue: #42c0b1;
 	--black: #110f2a;
 	--white: #fff;
 	--gray: #f7f7f7;
+	--green: #2fe013;
+	--red: #e03813;
+	--light-purple: #84389e;
 }
 
 .main {
@@ -14,6 +17,17 @@
 
 header {
 	width: 100%;
+	margin-bottom: 2rem;
+}
+
+.big-container {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 5%;
+}
+
+.small-container {
+	width: 30%;
 }
 
 .kleur {
@@ -25,10 +39,20 @@ header {
 .info {
 	padding: 0.5rem 1rem;
 	background-color: inherit;
+	margin-bottom: 1rem;
 }
 
 .purple {
 	background-color: var(--purple);
+	color: var(--white);
+}
+
+.gradient {
+	background: linear-gradient(
+		90deg,
+		var(--purple) 0%,
+		var(--light-purple) 100%
+	);
 	color: var(--white);
 }
 
@@ -38,6 +62,14 @@ header {
 
 .dark-blue {
 	background-color: var(--dark-blue);
+}
+
+.red {
+	background-color: var(--red);
+}
+
+.green {
+	background-color: var(--green);
 }
 
 .black {
