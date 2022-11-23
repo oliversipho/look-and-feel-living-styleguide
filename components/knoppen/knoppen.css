@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Rajdhani&display=swap');
 
+#root-header {
+    margin-bottom: 0;
+  }
+
 :root {
     /* Custom properties */
     --blue: #5052c9;
