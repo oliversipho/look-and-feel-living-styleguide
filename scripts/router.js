@@ -1,6 +1,12 @@
 const routes = [
   { title: "404", alias: "404", hash: "#404", directory: "./components/404" },
   {
+    title: "Voorbeeld",
+    alias: "voorbeeld",
+    hash: "#voorbeeld",
+    directory: "./components/voorbeeld",
+  },
+  {
     title: "Home",
     alias: "home",
     hash: "#home",
@@ -13,22 +19,88 @@ const routes = [
     directory: "./components/afbeeldingen",
   },
   {
+    title: "animatie",
+    alias: "animatie",
+    hash: "#animatie",
+    directory: "./components/animatie",
+  },
+  {
+    title: "berichtgeving",
+    alias: "berichtgeving",
+    hash: "#berichtgeving",
+    directory: "./components/berichtgeving",
+  },
+  {
+    title: "blokken",
+    alias: "blokken",
+    hash: "#blokken",
+    directory: "./components/blokken",
+  },
+  {
+    title: "formulieren",
+    alias: "formulieren",
+    hash: "#formulieren",
+    directory: "./components/formulieren",
+  },
+  {
+    title: "globals",
+    alias: "globals",
+    hash: "#globals",
+    directory: "./components/globals",
+  },
+  {
+    title: "headings",
+    alias: "headings",
+    hash: "#headings",
+    directory: "./components/headings",
+  },
+  {
+    title: "iconen",
+    alias: "iconen",
+    hash: "#iconen",
+    directory: "./components/iconen",
+  },
+  {
+    title: "interactieve-componenten",
+    alias: "interactieve-componenten",
+    hash: "#interactieve-componenten",
+    directory: "./components/interactieve-componenten",
+  },
+  {
+    title: "kleuren",
+    alias: "kleuren",
+    hash: "#kleuren",
+    directory: "./components/kleuren",
+  },
+  {
     title: "Knoppen",
     alias: "knoppen",
     hash: "#knoppen",
     directory: "./components/knoppen",
   },
   {
-    title: "Lijsten",
+    title: "lijsten",
     alias: "lijsten",
     hash: "#lijsten",
     directory: "./components/lijsten",
   },
   {
-    title: "Voorbeeld",
-    alias: "voorbeeld",
-    hash: "#voorbeeld",
-    directory: "./components/voorbeeld",
+    title: "media",
+    alias: "media",
+    hash: "#media",
+    directory: "./components/media",
+  },
+  {
+    title: "navigatie",
+    alias: "navigatie",
+    hash: "#navigatie",
+    directory: "./components/navigatie",
+  },
+  {
+    title: "reclame",
+    alias: "reclame",
+    hash: "#reclame",
+    directory: "./components/reclame",
   },
 ];
 
