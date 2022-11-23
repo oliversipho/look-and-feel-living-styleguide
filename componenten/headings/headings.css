@@ -2,19 +2,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
 
 html {
-    padding: 5%;
+
     padding-bottom: 0;
     padding-top: 0;
     padding-right: 0;
-    background: linear-gradient(90deg, rgba(80,82,194,1) 0%, rgba(131,58,180,1) 100%);
+
+    /* background: linear-gradient(90deg, rgba(80,82,194,1) 0%, rgba(131,58,180,1) 100%); */
 }
 
 body {
-    background: linear-gradient(90deg, rgba(80,82,194,1) 0%, rgba(131,58,180,1) 100%) !important;
+    /* background: linear-gradient(90deg, rgba(80,82,194,1) 0%, rgba(131,58,180,1) 100%) !important; */
 	display: flex;
 	flex-flow: column;
 	/* gap: var(--spacing); */
 	height: 100%;
+    padding-bottom: 0;
+    padding-top: 0;
+    padding-right: 0;
 }
 
 body > main, body > footer {
@@ -68,6 +72,9 @@ main {
     grid-row-gap: 0px; 
     gap: 60px;
         font-family: 'Rajdhani', Courier, monospace;
+        margin-left: 7%;
+
+        
 
 }
 
@@ -75,26 +82,27 @@ main {
 
 .sidebar {
     grid-area: 1 / 1; 
-    color: white;
+    color: rgb(0, 0, 0);
     font-family: 'Rajdhani', Courier, monospace;
 }
 
 .head-title {
-    color: white;
+    color: rgb(0, 0, 0);
     font-weight: 700;
     font-size: 4em;
     grid-area: 1 / 1;
     font-family: 'Rajdhani', Courier, monospace;
     margin-top: 30%;
+    
 }
 
 .content {
     grid-area: 1 / 2; 
-    height: 98vh;
-    margin-top: -20px;
+    height: 96vh;
+    /* margin-top: -20px; */
     display: flex;
     flex-direction: column ;
-    color: white;
+    color: rgb(0, 0, 0);
     font-weight: 600;
     overflow: scroll;
     padding: 10px;
@@ -160,6 +168,8 @@ h2 {
     border: solid;
     border-width: 2px;
     border-color: #f0f2f3;
+    background-color: #504eb4;
+    color: #eee;
 
 }
 
@@ -201,6 +211,7 @@ h3 {
     font-family: 'Roboto', Arial, Helvetica, sans-serif, sans-serif;
     font-weight: 400;
     font-size: 2em;
+    margin-top: 5%;
 }
 
 code {
