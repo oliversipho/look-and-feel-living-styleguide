@@ -42,14 +42,30 @@
 					<pre><code>&lt;textarea rows="3" placeholder="Placeholder..." required="" aria-required="true"&gt;&lt;/textarea&gt;</code></pre>
 
 					<h4>CSS</h4>
-					<pre><code>::placeholder { 
-<!--			-->	color: #c9c7c8;
-<!--			-->	opacity: 1;
+					<pre><code><!--			-->:root {
+<!--			-->	/* Custom properties */
+<!--			-->	--light-gray: #f7f7f7;
+<!--			-->	--gray: #c9c7c8;
+<!--			-->	--light-red: #fba5a4;
+<!--			-->	--red: red;
+<!--			-->	--white: #fff;
+						  
+<!--			-->	--small-spacing: .5em;
+<!--			-->	--normal-spacing: 1em;
+<!--			-->	--large-spacing: 2em;
+<!--			-->}
+						
+<!--			-->::placeholder { 
+<!--			-->	color: var(--gray);
+<!--			-->}
+
+<!--			-->.isEmpty::placeholder {
+<!--			-->	color: var(--red);
 <!--			-->}
 
 <!--			-->.form-field {
-<!--			-->	background-color: #f7f7f7;
-<!--			-->	padding: 2em;
+<!--			-->	background-color: var(--light-gray);
+<!--			-->	padding: var(--large-spacing);
 <!--			-->}
 					
 <!--			-->.ctc-form {
@@ -64,7 +80,7 @@
 <!--			-->	border: none;
 <!--			-->	font-family: "Rajdhani";
 <!--			-->	font-size: 16px;
-<!--			-->	margin-bottom: 1em;
+<!--			-->	margin-bottom: var(--normal-spacing);
 <!--			-->}
 					
 <!--			-->textarea {
@@ -74,13 +90,13 @@
 <!--			-->	border: none;
 <!--			-->	font-family: "Rajdhani";
 <!--			-->	font-size: 16px;
-<!--			-->	margin-bottom: 1em;
+<!--			-->	margin-bottom: var(--normal-spacing);
 <!--			-->	resize: none;
 <!--			-->}
 
 <!--			-->.isEmpty {
-<!--			-->	background-color: #fba5a4;
-<!--			-->	border: solid 2px red;
+<!--			-->	background-color: var(--light-red);
+<!--			-->	border: solid 2px var(--red);
 <!--			-->}</code></pre>
 				</div>
 				<div class="text-container">
