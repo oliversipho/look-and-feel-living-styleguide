@@ -19,12 +19,12 @@
     height: 100vh;
 }
 
-p {
+.p-IC {
     margin-bottom: 1em;
     font-family: sans-serif;
 }
 
-header {
+.header-IC {
     margin-bottom: 2em;
 }
 
@@ -69,7 +69,7 @@ header {
     color: white;
 }
 
-pre code {
+.pre-IC .code-IC {
     background-color: #eee;
     border: 1px solid #999;
     display: block;
@@ -94,8 +94,9 @@ pre code {
     display: none;
 }
 
-img {
+.img {
     vertical-align: middle;
+    opacity: 0.41;
 }
 
 /* Slideshow container */
@@ -162,9 +163,6 @@ img {
     animation-duration: 1000ms;
 }
 
-img {
-    opacity: 0.41;
-}
 
 .description-img {
     margin-top: 1em;
