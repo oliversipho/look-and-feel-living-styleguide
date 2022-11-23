@@ -8,6 +8,8 @@
 	--green: #2fe013;
 	--red: #e03813;
 	--light-purple: #84389e;
+	--border: solid 2px var(--black);
+	--padding: 1.5rem;
 }
 
 .main {
@@ -18,12 +20,14 @@
 header {
 	width: 100%;
 	margin-bottom: 2rem;
+	padding: var(--padding);
 }
 
 .big-container {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 5%;
+	padding: var(--padding);
 }
 
 .small-container {
@@ -31,8 +35,7 @@ header {
 }
 
 .kleur {
-	border: solid 2px var(--black);
-
+	border: var(--border);
 	padding: 0.5rem 1rem;
 }
 
@@ -86,7 +89,13 @@ header {
 }
 
 pre {
-	border: solid 2px var(--black);
+	border: var(--border);
 	border-radius: 1rem;
 	background-color: var(--white);
+}
+
+@media (max-width: 450px) {
+	.small-container {
+		width: 100%;
+	}
 }
