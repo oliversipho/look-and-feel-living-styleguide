@@ -143,9 +143,9 @@ article > header {
 	width: 300px;
 	left: -100%;
 	transition: left .2s ease-out;
+	overflow: scroll;
 }
 
-#main-nav,
 #main-content {
 	overflow: scroll;
 }
@@ -179,10 +179,3 @@ article > header {
 		width: 300px;
 	}
 }
-
-/* @media only screen and (min-width: 600px) {
-	#root-header,
-	#root-main {
-		padding-inline: 10%;
-	}
-} */
