@@ -35,7 +35,7 @@ function toggleMenu() {
 	element.classList.toggle('visible')
 
 	const activeItem =  document.getElementsByClassName('active')[0]
-	activeItem.scrollIntoView()
+	activeItem.scrollIntoView(false)
 }
 
 window.toggleMenu = toggleMenu
