@@ -5,6 +5,9 @@
     --secondary-ctc-color: #00ffec;
     --footer-color: #09102E;
     --text-spacing: 1em;
+    --font-size: 18px;
+    --secondary-text-color: white;
+    --small-width: 40em;
 }
 
 article > h3{
@@ -20,12 +23,16 @@ article > div:nth-of-type(1){
     background-color: var(--main-ctc-color);
     padding-top: 2em;
     font-family: 'Rajdhani', sans-serif;
-    color: white;
+    color: var(--secondary-text-color);
     display: flex;
     flex-flow: row nowrap;
     justify-content: flex-end;
-    font-size: 18px;
+    font-size: var(--font-size);
+    container-type: inline-size;
+    container-name: header;
 }
+
+
 
 article > div:nth-of-type(1) > img{
     max-width: 9em;
@@ -46,7 +53,7 @@ article > div:nth-of-type(1) > div > span:hover{
 
 article > div:nth-of-type(1) > div > button:nth-of-type(1){
     font-family: 'Rajdhani', sans-serif;
-    font-size: 18px;
+    font-size: var(--font-size);
     color: black;
     background-color: var(--secondary-ctc-color);
     border: none;
@@ -62,7 +69,7 @@ article > div:nth-of-type(1) > div > button:nth-of-type(1):hover{
 
 article > div:nth-of-type(1) > div > button:nth-of-type(2){
     padding: 1em;
-    color: white;
+    color: var(--secondary-text-color);
     background-color: var(--main-ctc-color);
     border: solid white 1px;
     border-radius: .25em;
@@ -83,8 +90,8 @@ article > div:nth-of-type(2){
     background-color: var(--main-ctc-color);
     padding-top: 2em;
     display: flex;
-    font-size: 18px;
-    max-width: 40em;
+    font-size: var(--font-size);
+    max-width: var(--small-width);
 }
 
 article > div:nth-of-type(2) > img{
@@ -99,7 +106,9 @@ article > div:nth-of-type(3){
     padding-top: 2em;
     display: flex;
     flex-flow: row nowrap;
-    color: white;
+    color: var(--secondary-text-color);
+    container-type: inline-size;
+    container-name: footer;
 }
 
 article > div:nth-of-type(3) > img{
@@ -122,7 +131,7 @@ article > div:nth-of-type(3) > div > span{
 }
 
 article > div:nth-of-type(3) > div > span > a:visited{
-    color: white;
+    color: var(--secondary-text-color);
 }
 
 article > div:nth-of-type(3) > div > img{
@@ -132,7 +141,7 @@ article > div:nth-of-type(3) > div > img{
 
 article > div:nth-of-type(3) > button{
     font-family: 'Rajdhani', sans-serif;
-    font-size: 18px;
+    font-size: var(--font-size);
     color: black;
     background-color: var(--secondary-ctc-color);
     border: none;
@@ -149,13 +158,13 @@ article >  div:nth-of-type(3) > button:hover{
 }
 
 article > div:nth-of-type(4){
-    max-width: 40em;
+    max-width: var(--small-width);
     padding-bottom: 3em;
     background-color: var(--footer-color);
     padding-top: 2em;
     display: flex;
     flex-flow: row nowrap;
-    color: white;
+    color: var(--secondary-text-color);
     justify-content: center;
 }
 
@@ -173,4 +182,22 @@ pre code {
 article > p{
     margin-top: var(--text-spacing);
     font-weight: bold;
+}
+
+@container header (max-width: 1080px){
+    article > div:nth-of-type(1) > div > button:nth-of-type(2){
+        display: none;
+    }
+}
+
+@container header (max-width: 980px){
+    article > div:nth-of-type(1) > div > button:nth-of-type(1){
+        display: none;
+    }
+}
+
+@container footer (max-width: 580px){
+    article > div:nth-of-type(3) > button {
+        display: none;
+    }
 }
