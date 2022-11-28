@@ -126,7 +126,10 @@ const locationHandler = async () => {
 	if (menuItems) menuItems.childNodes.forEach((item) => item.classList.remove('active'))
 
 	const activeMenuItem = document.getElementById(`menu-item-${route.hash}`)
-	if (activeMenuItem) activeMenuItem.classList.add('active')
+	if (activeMenuItem) {
+		activeMenuItem.classList.add('active')
+		activeMenuItem.scrollIntoView()
+	}
 
   document.title = route.title
 
