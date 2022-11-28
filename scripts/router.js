@@ -128,7 +128,7 @@ const locationHandler = async () => {
 	const activeMenuItem = document.getElementById(`menu-item-${route.hash}`)
 	if (activeMenuItem) {
 		activeMenuItem.classList.add('active')
-		activeMenuItem.scrollIntoView()
+		// activeMenuItem.scrollIntoView()
 	}
 
   document.title = route.title
