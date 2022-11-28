@@ -9,6 +9,11 @@
 
 	--primary-color: #524dd0;
 	--accent-color: #00ffec;
+
+	--device-sm: 600px;
+	--device-md: 768px;
+	--device-lg: 992px;
+	--device-xl: 1200px;
 }
 
 * {
@@ -73,13 +78,16 @@ article > header {
 #root-main {
 	overflow: scroll;
 	position: relative;
+	display: flex;
 }
 
 #root-header {
 	background-color: var(--primary-color);
 	display: flex;
-	justify-content: space-between;
 	align-items: center;
+	gap: var(--spacing);
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.5),0 0 5px rgba(0,0,0,.5);
+	z-index: 1;
 }
 
 #root-header > img {
@@ -88,6 +96,7 @@ article > header {
 
 #main-content {
 	padding: var(--spacing);
+	flex: 1;
 }
 
 #main-nav-items {
@@ -127,7 +136,35 @@ article > header {
 	transition: .2s ease-in;
 }
 
+#main-nav,
+#main-content {
+	overflow: scroll;
+}
+
 #main-nav.visible {
 	left: 0;
 	transition: .2s ease-out;
 }
+
+@media only screen and (min-width: 600px) {
+	#root-header > a > img {
+		content: url('./assets/CTC_Primary_Logo_White.png');
+		height: 45px;
+	}
+	#root-header > button {
+		display: none;
+	}
+
+	#main-nav {
+		position: initial;
+		left: 0;
+		width: 300px;
+	}
+}
+
+/* @media only screen and (min-width: 600px) {
+	#root-header,
+	#root-main {
+		padding-inline: 10%;
+	}
+} */
