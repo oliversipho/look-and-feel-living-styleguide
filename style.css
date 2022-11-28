@@ -151,10 +151,12 @@ pre {
 	left: -100%;
 	transition: left .2s ease-out;
 	overflow-y: auto;
+	overflow-x: hidden;
 }
 
 #main-content {
 	overflow-y: auto;
+	overflow-x: hidden;
 }
 
 #main-nav.visible,
