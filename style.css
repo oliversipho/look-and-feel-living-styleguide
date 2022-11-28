@@ -80,6 +80,17 @@ pre {
 
 #root-header {
 	padding: var(--spacing);
+	background-color: var(--primary-color);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: var(--spacing);
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.5),0 0 5px rgba(0,0,0,.5);
+	z-index: 1;
+}
+
+#root-header > a > img {
+	height: 31px;
 }
 
 #root-main {
@@ -87,19 +98,6 @@ pre {
 	position: relative;
 	display: flex;
 	flex-direction: row;
-}
-
-#root-header {
-	background-color: var(--primary-color);
-	display: flex;
-	align-items: center;
-	gap: var(--spacing);
-	box-shadow: 0 0 5px rgba(0, 0, 0, 0.5),0 0 5px rgba(0,0,0,.5);
-	z-index: 1;
-}
-
-#root-header > img {
-	height: 31px;
 }
 
 #main-content {
