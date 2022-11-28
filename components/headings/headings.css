@@ -42,14 +42,14 @@ h1 {
 .white-btn {
     background-color: white;
     color: #5052c9;
-    
+
 }
 
 .white-btn:hover {
     color: #ffffff;
     box-shadow: inset 0 0 0 3px #ffffff;
     background-color:#504eb4;
-    
+
 }
 
 button {
@@ -65,23 +65,23 @@ button {
 }
 
 main {
-    display: grid; 
-    grid-template-columns: 1fr 4fr; 
-    grid-template-rows: 1fr; 
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr;
     grid-column-gap: 0px;
-    grid-row-gap: 0px; 
+    grid-row-gap: 0px;
     gap: 60px;
         font-family: 'Rajdhani', Courier, monospace;
         margin-left: 7%;
 
-        
+
 
 }
 
 
 
 .sidebar {
-    grid-area: 1 / 1; 
+    grid-area: 1 / 1;
     color: rgb(0, 0, 0);
     font-family: 'Rajdhani', Courier, monospace;
 }
@@ -93,11 +93,11 @@ main {
     grid-area: 1 / 1;
     font-family: 'Rajdhani', Courier, monospace;
     margin-top: 30%;
-    
+
 }
 
 .content {
-    grid-area: 1 / 2; 
+    grid-area: 1 / 2;
     height: 96vh;
     /* margin-top: -20px; */
     display: flex;
@@ -153,14 +153,14 @@ h2 {
     padding-left: 25px;
     padding-right: 25px;
     padding-top: 20px;
-    background-color: #f0f2f3;    
+    background-color: #f0f2f3;
     font-family: 'Rajdhani', Courier, monospace;
     font-weight: 700;
 }
 
 .grijs-zwart {
     color: black;
-    
+
 }
 
 .paars-wit {
@@ -182,7 +182,7 @@ h2 {
     font-family: 'Roboto', Arial, Helvetica, sans-serif, sans-serif;
     font-weight: 300;
     margin-top: 1%;
-    
+
 
 }
 
@@ -214,17 +214,6 @@ h3 {
     margin-top: 5%;
 }
 
-code {
-    background-color: #eee;
-    border: 1px solid #999;
-    display: block;
-    padding: 20px;
-    margin-bottom: 1em;
-    border-radius: 5px;
-    color: #504eb4;
-
-}
-
 h4 {
     font-size: 1.2em;
     margin-bottom: 10px;
@@ -234,21 +223,21 @@ h4 {
 
 
 @media only screen and (max-width: 600px) {
-    
-    
+
+
     main {
-        display: grid; 
-        grid-template-columns: 1fr; 
-        grid-template-rows: 1fr; 
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
         grid-column-gap: 0px;
-        grid-row-gap: 0px; 
+        grid-row-gap: 0px;
         gap: 60px;
             font-family: 'Rajdhani', Courier, monospace;
-    
+
     }
 
     .content {
-        grid-area: 1 / 1; 
+        grid-area: 1 / 1;
         height: 75vh;
         margin-top: 50%;
         display: flex;
@@ -262,12 +251,12 @@ h4 {
     }
 
     .sidebar {
-        grid-area: 1 / 1; 
+        grid-area: 1 / 1;
         color: white;
         font-family: 'Rajdhani', Courier, monospace;
         margin-top: -27%;
     }
-    
+
     .abc {
         font-size: 1.2em;
         margin-right: 50%;
@@ -279,7 +268,7 @@ h4 {
         padding-bottom: 0;
         margin-top: 4%;
     }
-    
+
     .tekst-blok {
         margin: 2%;
         margin-left: 0;
@@ -300,15 +289,15 @@ h4 {
         font-size: 1.2em;
         margin-right: 0%;
         margin-top: -15px;
-    
-    
+
+
     }
 
     .headline {
         font-size: 3em;
         margin-right: 0%;
         line-height: 1;
-    
+
     }
 
     .mfi {
@@ -317,7 +306,7 @@ h4 {
         margin-right: 10%;
 
     }
-    
+
     html {
         padding: 5%;
         padding-bottom: 0;
@@ -330,8 +319,8 @@ h4 {
         font-family: 'Roboto', Arial, Helvetica, sans-serif, sans-serif;
         font-weight: 300;
         margin-top: 1%;
-        
-    
+
+
     }
-    
+
 }

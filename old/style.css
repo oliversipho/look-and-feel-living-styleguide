@@ -63,9 +63,6 @@ article {
 	flex-direction: column;
 	/* gap: var(--spacing); */
 }
-code {
-	overflow-x: scroll;
-}
 
 .container {
     width: 100%;

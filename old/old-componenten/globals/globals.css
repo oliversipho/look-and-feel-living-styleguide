@@ -156,13 +156,6 @@ article > div:nth-of-type(4) > img{
     max-width: 7em;
 }
 
-pre code {
-    background-color: #eee;
-    border: 1px solid #999;
-    display: block;
-    padding: 20px;
-}
-
 p{
     margin-top: 1em;
     font-weight: bold;
