@@ -113,7 +113,11 @@ const locationHandler = async () => {
     window.location.hash = route.hash
   }
 
-  const html = await fetch(`${route.directory}/${route.alias}.html`).then((data) => data.text())
+  const html = await fetch(`${route.directory}/${route.alias}.html`)
+		.then((data) => {
+			if (data.status === 404) window.location.hash = routes[0]
+			return data.text()
+		})
 
   const element = document.getElementById('main-content')
 	element.innerHTML = html
