@@ -34,8 +34,8 @@ function toggleMenu() {
 	const element = document.getElementById('main-nav')
 	element.classList.toggle('visible')
 
-	const activeItem =  document.getElementsByClassName('active')[0]
-	activeItem.scrollIntoView(false)
+	// const activeItem =  document.getElementsByClassName('active')[0]
+	// activeItem.scrollIntoView()
 }
 
 window.toggleMenu = toggleMenu
