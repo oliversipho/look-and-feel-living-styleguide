@@ -10,7 +10,7 @@
 	<link rel="stylesheet" href="style.css" />
 	<link id="component-styles" rel="stylesheet" />
 
-	<script type="module" src="./scripts/index.js"></script>
+	<script src="./scripts/index.js"></script>
 	<script type="module" src="./scripts/menu.js"></script>
 	<script type="module" src="./scripts/router.js"></script>
 	<script id="component-script"></script>
@@ -18,15 +18,15 @@
 
 <body>
 	<header id="root-header">
-		<img src="https://static.wixstatic.com/media/21dd0d_050319353c314f00b14e0fc7970173d8~mv2.png/v1/fill/w_163,h_56,al_c,q_95,enc_auto/CTC_Logo_Wit.png" alt="Logo van Coding The Curbs" height="31">
+		<button onclick="toggleMenu()">MENU</button>
+		<a href="/">
+			<img src="https://static.wixstatic.com/media/21dd0d_050319353c314f00b14e0fc7970173d8~mv2.png/v1/fill/w_163,h_56,al_c,q_95,enc_auto/CTC_Logo_Wit.png" alt="Logo van Coding The Curbs" height="31">
+		</a>
+		<button style="visibility: hidden;">MENU</button>
 	</header>
 	<main id="root-main">
 		<nav id="main-nav">
-			<div id="main-nav-items" class="visible"></div>
-			<!-- <div id="main-nav-item">
-				<h1>Home</h1>
-				<p>Hallo dit is de homepagina</p>
-			</div> -->
+			<div id="main-nav-items"></div>
 		</nav>
 		<div id="main-content"></div>
 	</main>

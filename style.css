@@ -30,7 +30,7 @@ body,
 section {
 	display: flex;
 	flex-flow: column;
-	height: 86vh;
+	height: 100%;
 }
 
 body > header,
@@ -66,43 +66,47 @@ article > header {
 	margin-bottom: calc(var(--spacing) / 2);
 }
 
-#root-header,
+#root-header {
+	padding: var(--spacing);
+}
+
 #root-main {
-	padding: var(--spacing) 100px;
+	overflow: scroll;
+	position: relative;
 }
 
 #root-header {
 	background-color: var(--primary-color);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 #root-header > img {
-	height: 45px;
+	height: 31px;
 }
 
-#root-main {
-	height: 100%;
-	display: grid;
-	grid-template-columns: 1fr  4fr;
-	grid-template-rows: 1fr;
-}
-
-#main-nav,
 #main-content {
 	padding: var(--spacing);
-}
-
-#main-content {
-	height: 100%;
-	overflow: scroll;
 }
 
 #main-nav-items {
 	display: flex;
 	flex-direction: column;
-	gap: 1rem;
+}
+
+#main-nav-items > a {
+	padding: var(--spacing);
+	text-decoration: none;
 	font-family: 'rajdhani';
 	font-size: 1.3em;
-	text-decoration: none;
+	color: black;
+	transition: .2s ease-in;
+}
+
+#main-nav-items > a:hover {
+	background-color: lightgrey;
+	transition: .2s ease-out;
 }
 
 ::-webkit-scrollbar {
@@ -112,4 +116,18 @@ article > header {
 .grid {
 	display: grid;
 	grid-template-columns: 4fr 2fr;
+}
+
+#main-nav {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color: white;
+	left: -100%;
+	transition: .2s ease-in;
+}
+
+#main-nav.visible {
+	left: 0;
+	transition: .2s ease-out;
 }

@@ -10,6 +10,7 @@
 	--light-purple: #84389e;
 	--border: solid 2px var(--black);
 	--padding: 1.5rem;
+	--border-radius: 0.5rem;
 }
 
 .main {
@@ -37,6 +38,7 @@
 .kleur {
 	border: var(--border);
 	padding: 0.5rem 1rem;
+	border-radius: var(--border-radius);
 }
 
 .info {

@@ -30,11 +30,8 @@ function getNavigationList() {
 }
 
 function toggleMenu() {
-	const list = document.getElementById('main-nav-items')
-	list.classList.toggle('visible')
-
-	const item = document.getElementById('main-nav-item')
-	item.classList.toggle('visible')
+	const element = document.getElementById('main-nav')
+	element.classList.toggle('visible')
 }
 
 window.toggleMenu = toggleMenu
