@@ -119,6 +119,10 @@ pre {
 	transition: .2s ease-in;
 }
 
+#main-nav-items > a.active {
+	font-weight: bold;
+}
+
 #main-nav-items > a:hover {
 	background-color: lightgrey;
 	transition: .2s ease-out;

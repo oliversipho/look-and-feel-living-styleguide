@@ -22,6 +22,7 @@ function getNavigationList() {
 	const list = document.getElementById('main-nav-items')
 	items.forEach((item) => {
 		const ancor = document.createElement('a')
+		ancor.id = `menu-item-${item.hash}`
 		ancor.innerHTML = `${item.label}`
 		ancor.href = item.hash
 		ancor.onclick = toggleMenu
@@ -32,6 +33,9 @@ function getNavigationList() {
 function toggleMenu() {
 	const element = document.getElementById('main-nav')
 	element.classList.toggle('visible')
+
+	const activeItem =  document.getElementsByClassName('active')[0]
+	activeItem.scrollIntoView()
 }
 
 window.toggleMenu = toggleMenu

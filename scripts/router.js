@@ -119,8 +119,14 @@ const locationHandler = async () => {
 			return data.text()
 		})
 
-  const element = document.getElementById('main-content')
-	element.innerHTML = html
+  const content = document.getElementById('main-content')
+	content.innerHTML = html
+
+	const menuItems = document.getElementById('main-nav-items')
+	if (menuItems) menuItems.childNodes.forEach((item) => item.classList.remove('active'))
+
+	const activeMenuItem = document.getElementById(`menu-item-${route.hash}`)
+	if (activeMenuItem) activeMenuItem.classList.add('active')
 
   document.title = route.title
 
