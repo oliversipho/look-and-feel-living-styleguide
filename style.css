@@ -10,10 +10,29 @@
 	--primary-color: #524dd0;
 	--accent-color: #00ffec;
 
+	/* Custom properties */
+	--blue: #5052c9;
+	--green: #00ffec;
+	--purple: #833ab4;
+	--white: #fff;
+	--black: #000;
+	--gradient: linear-gradient(90deg, rgba(80,82,194,1) 0%, rgba(131,58,180,1) 100%);
+
 	--device-sm: 600px;
 	--device-md: 768px;
 	--device-lg: 992px;
 	--device-xl: 1200px;
+}
+
+button {
+	padding: 1em 3em 1em 3em;
+	border-radius: 5px;
+	border: none;
+	background-color: var(--white);
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 14px;
+	font-weight: 600;
+	transition: .2s;
 }
 
 * {
@@ -187,6 +206,17 @@ pre {
 }
 ::-webkit-scrollbar-thumb:hover {
   opacity: .3;
+}
+
+.white-btn {
+	background-color: var(--white);
+	color: var(--blue);
+}
+					
+.white-btn:hover {
+	background-color: var(--blue);
+	color: var(--white);
+	box-shadow: inset 0 0 0 3px var(--white);
 }
 
 @media only screen and (min-width: 992px) {
