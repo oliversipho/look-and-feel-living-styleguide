@@ -60,7 +60,7 @@ main {
     background-color: #524dd0;
     color: white;
   }
-  
+
   .flex-items:nth-child(2) {
     display: block;
     flex-grow: 0;
@@ -71,7 +71,7 @@ main {
     background-color: #110f2a;
     color: white;
   }
-  
+
   .flex-items:nth-child(3) {
     display: block;
     flex-grow: 0;
@@ -124,14 +124,3 @@ header {
 h3 {
     margin: 1em 0;
 }
-
-pre code {
-    background-color: #eee;
-    border: 1px solid #999;
-    display: block;
-    padding: 20px;
-    margin-bottom: 1em;
-    border-radius: 5px;
-    overflow-x: scroll;
-    text-align: left;
-  }
