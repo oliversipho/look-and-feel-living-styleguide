@@ -95,6 +95,7 @@ pre {
 	border: 1px solid grey;
 	border-radius: 5px;
 	background-color: #eee;
+	overflow-x: auto;
 }
 
 #root-header {
@@ -212,7 +213,7 @@ pre {
 	background-color: var(--white);
 	color: var(--blue);
 }
-					
+
 .white-btn:hover {
 	background-color: var(--blue);
 	color: var(--white);
@@ -241,4 +242,26 @@ pre {
 		position: initial;
 		width: 275px;
 	}
+}
+
+.colors {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: .5rem;
+}
+
+.colors__item {
+	flex: 1;
+	background: #F1F2F4;
+	border-radius: 5px;
+	overflow: hidden;
+	box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.02), 0px 0px 2px rgba(0, 0, 0, 0.05), 0px 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+.colors__item > h3 {
+	padding: .5rem;
+}
+
+.colors__item > div {
+	height: 4rem;
 }
