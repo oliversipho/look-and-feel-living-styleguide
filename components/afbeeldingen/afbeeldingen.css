@@ -23,3 +23,9 @@ img {
 .mb-1 {
 	margin-bottom: .5rem;
 }
+
+.img-fit {
+	height: 150px;
+    max-width: auto;
+    object-fit: cover;
+}
