@@ -8,7 +8,7 @@ const items = [
 	{ label: 'Formulieren', alias: 'formulieren', hash: '#formulieren', directory: './components/formulieren' },
 	{ label: 'Globals', alias: 'globals', hash: '#globals', directory: './components/globals' },
 	{ label: 'Headings', alias: 'headings', hash: '#headings', directory: './components/headings' },
-	// { label: 'Iconen', alias: 'iconen', hash: '#iconen', directory: './components/iconen' },
+	{ label: 'Iconen', alias: 'iconen', hash: '#iconen', directory: './components/iconen' },
 	{ label: 'Interactieve-componenten', alias: 'interactieve-componenten', hash: '#interactieve-componenten', directory: './components/interactieve-componenten' },
 	{ label: 'Kleuren', alias: 'kleuren', hash: '#kleuren', directory: './components/kleuren' },
 	{ label: 'Knoppen', alias: 'knoppen', hash: '#knoppen', directory: './components/knoppen' },
